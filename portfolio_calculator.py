@@ -1,15 +1,3 @@
-Modern Portfolio Theory (MPT) Calculator
-==========================================
-Diversified across: Stocks, Bonds, REITs, Index ETFs, Commodities
-
-All 5 bugs from the original code are fixed:
-  Bug 1 — results_df now properly created after the simulation loop
-  Bug 2 — best_idx and best_weights now properly defined
-  Bug 3 — VFIAX (mutual fund, not on yfinance) replaced with VOO (ETF)
-  Bug 4 — Dirichlet sampling used for unbiased simplex weights
-  Bug 5 — mean and covariance both annualised before use
-"""
-
 import numpy as np
 import pandas as pd
 import matplotlib
